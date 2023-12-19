@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Web Demo</title>
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Petu </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="home.html">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        <a href="">About</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+       <a href="login.html"><div class="fas fa-user" id="login-btn"></div></a> 
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/Matar-Paneer-1.jpg" alt="">
+            <div class="content">
+                <h3>Matar paneer</h3>
+                <span class="price"> &#8377 60/-</span>
+                <span class="quantity">qty : 1kg</span>
+            </div>
+        </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <!-- <h3>fresh and <span>organic</span> products for your</h3> -->
+        <p></p>
+        <a href="home.html" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="freshgif.gif" alt="">
+            <h3>fresh and healthy</h3>
+            <p>Taste the difference with our pure and unadulterated products, ensuring every bite is a step towards a healthier you.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="gifdelivery.gif" alt="">
+            <h3>free delivery</h3>
+            <p>Guess what? For a limited time, we are thrilled to offer FREE delivery on all your orders!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="gifpayment.gif" alt="">
+            <h3>easy payments</h3>
+            <p>Choose your preferred payment method! We offer a variety of options, including credit cards, debit cards, mobile wallets, and more.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="gifcake.gif" alt="">
+                <h3>Cake</h3>
+                <div class="price"> &#8377 300/- - 700/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cake.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="gifburger.gif" alt="">
+                <h3>fresh onion</h3>
+                <div class="price">  &#8377 30/- - 40/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>fresh meat</h3>
+                <div class="price">  &#8377 160/- - 210/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>fresh cabbage</h3>
+                <div class="price">  &#8377 40/- - 50/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="gifburger.gif" alt="">
+                <h3>Burger</h3>
+                <div class="price">  &#8377 120/- - 350/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="burger.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="gifchicken.gif" alt="">
+                <h3>Chicken</h3>
+                <div class="price">  &#8377 130/- - 320/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="chicken.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="gifpizza.gif" alt="">
+                <h3>Pizza</h3>
+                <div class="price">  &#8377 300/- - 450/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="pizz.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="gifroll.gif" alt="">
+                <h3>Rolls</h3>
+                <div class="price">  &#8377 120/- - 230/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="Rolls.html" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="chicken5.jpg" alt="">
+            <h3>Chicken</h3>
+            <p>upto 45% off</p>
+            <a href="chicken.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="Fish12.jpg" alt="">
+            <h3>Fish</h3>
+            <p>upto 45% off</p>
+            <a href="fish.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="mutton3.jpg" alt="">
+            <h3>Mutton</h3>
+            <p>upto 45% off</p>
+            <a href="mutton.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="idli13.jpg" alt="">
+            <h3>Idli</h3>
+            <p>upto 45% off</p>
+            <a href="idli.html" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="pic-1.png" alt="">
+                <p>"Indulging my culinary cravings has never been this delightful! Petu not only transformed my dining experience but also revolutionized the way I approach online food ordering. With an expansive menu of delectable options, seamless navigation, and a user-friendly interface, this platform effortlessly brings gourmet flavors to my doorstep.</p>
+                <h3>Raju</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="blogpizza.gif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 17 Dec, 2023 </a>
+                </div>
+               <center> <h3>Pizza</h3></center>
+                <p>Welcome to a place where the aroma of freshly baked dough and the symphony of savory toppings create an irresistible harmony — our pizza paradise! Join us on a gastronomic adventure as we explore the diverse and delicious world of pizzas.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="gifroll.gif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 17 Dec, 2023 </a>
+                </div>
+               <center> <h3>Rolls</h3></center>
+                <p>Get ready for a culinary journey that revolves around one of the most versatile and universally loved creations in the world of cuisine — rolls! From savory to sweet, soft to crunchy, these doughy delights have woven themselves into the fabric of global gastronomy.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="gif2fish.gif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 17 Dec, 2023 </a>
+                </div>
+                <center><h3>Fish</h3></center>
+                <p>Dive deep with us into the vast, flavorful ocean as we embark on a journey that celebrates the diverse and delectable world of fish. From the briny depths to your plate, each flaky bite tells a tale of culinary artistry and the bounties our oceans offer. Join us as</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> groco <i class="fas fa-shopping-basket"></i> </h3>
+            <p>If "groco online food delivery script" refers to a script or software solution for online food delivery services, it's common for businesses to use custom or third-party solutions to set up and operate their platforms.</p>
+            <div class="share">
+                <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +917368958148 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +919102040330 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i>shaileshkumar8148@gmail.com</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Bhagalpur, Bihar , INDIA 812005</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> Created by <span> Shailesh Kumar </span> | This ia Dummy website for project purpose </div>
+
+</section>
+
+</body>
+</html>
